@@ -9,11 +9,8 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 color-links: yes
-lot: yes
-lof: yes
 fontsize: 12 pt
 site:  bookdown::bookdown_site
-url: 'https://e-gugliotti-NOAA.github.io/test-vignettes/'
 github-repo: e-gugliotti-NOAA/test-vignettes-bookdown
 description: "This is an assemblage of vignettes to help Stock Synthesis users."
 ---
