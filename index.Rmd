@@ -13,7 +13,7 @@ lot: yes
 lof: yes
 fontsize: 12 pt
 site:  bookdown::bookdown_site
-url: 'https://e-gugliotti-NOAA.github.io/test-vignettes
+url: 'https://e-gugliotti-NOAA.github.io/test-vignettes'
 github-repo: e-gugliotti-NOAA/test-vignettes-bookdown
 description: "This is an assemblage of vignettes to help Stock Synthesis users."
 ---
