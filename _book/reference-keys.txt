@@ -1,7 +1,6 @@
 fig:nice-fig
 tab:nice-tab
-prerequisites
-intro
+predator
 literature
 methods
 math-example

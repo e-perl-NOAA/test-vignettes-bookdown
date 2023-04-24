@@ -120,13 +120,13 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={A Minimal Book Example},
-  pdfauthor={Yihui Xie},
+  pdftitle={Stock Synthesis Vignettes},
+  pdfauthor={Elizabeth Gugliotti},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{A Minimal Book Example}
-\author{Yihui Xie}
+\title{Stock Synthesis Vignettes}
+\author{Elizabeth Gugliotti}
 \date{2023-04-24}
 
 \begin{document}
@@ -137,26 +137,13 @@
 \tableofcontents
 }
 \hypertarget{prerequisites}{%
-\chapter{Prerequisites}\label{prerequisites}}
+\chapter*{Prerequisites}\label{prerequisites}}
+\addcontentsline{toc}{chapter}{Prerequisites}
 
 This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports, e.g., a math equation \(a^2 + b^2 = c^2\).
 
-The \textbf{bookdown} package can be installed from CRAN or Github:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{\# or the development version}
-\CommentTok{\# devtools::install\_github("rstudio/bookdown")}
-\end{Highlighting}
-\end{Shaded}
-
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading \texttt{\#}.
-
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.name/tinytex/}.
-
-\hypertarget{intro}{%
-\chapter{Introduction}\label{intro}}
+\hypertarget{predator}{%
+\chapter{Predator Vignette}\label{predator}}
 
 You can label chapter and section titles using \texttt{\{\#label\}} after them, e.g., we can reference Chapter \ref{intro}. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \ref{methods}.
 
@@ -171,7 +158,7 @@ Figures and tables with captions will be placed in \texttt{figure} and \texttt{t
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{bookdown-demo_files/figure-latex/nice-fig-1} 
+{\centering \includegraphics[width=0.8\linewidth]{Stock-Synthesis-Vignettes_files/figure-latex/nice-fig-1} 
 
 }
 
