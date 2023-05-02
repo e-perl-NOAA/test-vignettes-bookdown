@@ -1,0 +1,17 @@
+fig:nice-fig
+tab:nice-tab
+predator
+introduction
+predator-setup
+basic-predator-setup
+further-predator-setup
+example
+data-file
+control-file
+settlement
+methods
+math-example
+applications
+example-one
+example-two
+final-words
