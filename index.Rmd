@@ -1,4 +1,4 @@
---- 
+---
 title: "Stock Synthesis Vignettes"
 author: "Elizabeth Gugliotti"
 date: "`r Sys.Date()`"
@@ -11,7 +11,16 @@ link-citations: yes
 github-repo: e-gugliotti-NOAA/test-vignettes-bookdown
 description: "This is an assemblage of vignettes to help Stock Synthesis users."
 ---
+```{r, echo = FALSE, warning = FALSE}
+library(bookdown)
+library(knitr)
+remotes::install_github('yihui/xfun')
+xfun::pkg_load2(c('htmltools', 'mime'))
+knitr::write_bib(c("base", "bookdown", "knitr", "xfun", "htmltools", "mime"), "packages.bib")
+```
 
-# Prerequisites {-}
+# Introduction to vignettes {.unnumbered}
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+These vignettes are supplementary to the [Stock Synthesis User Manual](https://nmfs-stock-synthesis.github.io/doc/SS330_User_Manual.html). 
+
+For these vignettes, please download the executables from the most recent [Stock Synthesis release](https://github.com/nmfs-stock-synthesis/stock-synthesis/releases/latest).

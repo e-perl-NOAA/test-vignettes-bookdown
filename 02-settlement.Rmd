@@ -1,0 +1,4 @@
+# Settlement Timing Vignette {#settlement}
+```{r, echo = FALSE}
+xfun::embed_dir('data/BigSkate_2019', text = 'Download the settlement timing vignette files here.')
+```
