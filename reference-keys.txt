@@ -9,6 +9,12 @@ example
 data-file
 control-file
 settlement
+example-1-december-spawning-january-settlement
+example-2-january-spawning-january-settlement
+example-3-january-spawning-march-settlement
+example-4-march-spawning
+example-5-february-spawning-may-settlement-ok-if-split-across-seasons
+example-6-february-spawning-january-settlement-of-following-year-at-age-1
 methods
 math-example
 applications
